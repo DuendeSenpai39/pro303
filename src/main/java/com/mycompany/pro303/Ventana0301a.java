@@ -96,8 +96,8 @@ public class Ventana0301a extends JFrame {
     public void iniciarJButtons(){
         this.jButtonList=new ArrayList<>();
         
-        this.jButtonList.add(new JButton("Guardar"));
-        this.jButtonList.add(new JButton("Listar"));
+        this.jButtonList.add(new JButton("Guardar datos ingresados"));
+        this.jButtonList.add(new JButton("Agregar"));
         this.jPanelList.get(6).add(this.jButtonList.get(0));
         this.jPanelList.get(6).add(this.jButtonList.get(1));
         
