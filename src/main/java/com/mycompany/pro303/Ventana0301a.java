@@ -47,8 +47,12 @@ public class Ventana0301a extends JFrame {
         this.jPanelList.add(new JPanel());
         
         this.jPanelList.get(0).setBackground(java.awt.Color.yellow);
-        this.jPanelList.get(0).setBackground(java.awt.Color.red);
-        this.jPanelList.get(0).setBackground(java.awt.Color.green);
+        this.jPanelList.get(1).setBackground(java.awt.Color.red);
+        this.jPanelList.get(2).setBackground(java.awt.Color.green);    
+        this.jPanelList.get(3).setBackground(java.awt.Color.blue);
+        this.jPanelList.get(4).setBackground(java.awt.Color.cyan);
+        this.jPanelList.get(5).setBackground(java.awt.Color.orange);
+
         
         this.jPanelList.get(0).setLayout(new GridLayout(6,1));
         this.jPanelList.get(0).add(this.jPanelList.get(1));
@@ -73,8 +77,8 @@ public class Ventana0301a extends JFrame {
         this.jTextFieldlList.add(new JTextField(20));
         this.jTextFieldlList.add(new JTextField(5));
         this.jTextFieldlList.add(new JTextField(5));
-         this.jTextFieldlList.add(new JTextField("yyyy"));
-        this.jTextFieldlList.add(new JTextField("mm"));
+         this.jTextFieldlList.add(new JTextField("year"));
+        this.jTextFieldlList.add(new JTextField("mes"));
         this.jTextFieldlList.add(new JTextField("dd"));
         
         this.jPanelList.get(1).add(this.jLabelList.get(0));
